@@ -48,9 +48,6 @@
   }
 }
 @media(max-width:700px){
-  html{
-    font-size: 15px;
-  }
   .quiz{
     max-width: 440px;
   }
@@ -66,7 +63,7 @@
 }
 @media(max-width:475px){
   .quiz{
-    max-width: 320px;
+    max-width: 475px
   }
   .question{
     font-size: 1.3rem!important;
