@@ -45,9 +45,9 @@ let initialState = {
       id: 4,
       answers: [
         { name: '987 тыс.человек', isRight: false, id: 1, isSelected: undefined },
-        { name: '404 тыс.человек', isRight: true, id: 2, isSelected: undefined },
-        { name: '380 тыс.человек', isRight: false, id: 3, isSelected: undefined },
-        { name: '202 тыс.человек', isRight: false, id: 4, isSelected: undefined },
+        { name: '403 тыс.человек', isRight: true, id: 2, isSelected: undefined },
+        { name: '389 тыс.человек', isRight: false, id: 3, isSelected: undefined },
+        { name: '510 тыс.человек', isRight: false, id: 4, isSelected: undefined },
       ],
     },
 
@@ -55,7 +55,7 @@ let initialState = {
       name: 'Какая известная музыкальная группа была основана в Иванове?',
       id: 5,
       answers: [
-        { name: 'Nautilus Pompilius', isRight: false, id: 1, isSelected: undefined },
+        { name: 'Любэ', isRight: false, id: 1, isSelected: undefined },
         { name: 'Мумий Тролль', isRight: false, id: 2, isSelected: undefined },
         { name: 'Градусы', isRight: false, id: 3, isSelected: undefined },
         { name: 'Дискотека Авария', isRight: true, id: 4, isSelected: undefined },
@@ -78,7 +78,7 @@ let initialState = {
       id: 7,
       answers: [
         { name: '19', isRight: true, id: 1, isSelected: undefined },
-        { name: '26', isRight: false, id: 2, isSelected: undefined },
+        { name: '21', isRight: false, id: 2, isSelected: undefined },
         { name: '15', isRight: false, id: 3, isSelected: undefined },
         { name: '23', isRight: false, id: 4, isSelected: undefined },
       ],
@@ -99,10 +99,10 @@ let initialState = {
       name: 'В каком году был утвержден герб Иваново?',
       id: 9,
       answers: [
-        { name: '1977', isRight: false, id: 1, isSelected: undefined },
+        { name: '1988', isRight: false, id: 1, isSelected: undefined },
         { name: '1996', isRight: true, id: 2, isSelected: undefined },
-        { name: '1989', isRight: false, id: 3, isSelected: undefined },
-        { name: '1992', isRight: false, id: 4, isSelected: undefined },
+        { name: '1994', isRight: false, id: 3, isSelected: undefined },
+        { name: '2001', isRight: false, id: 4, isSelected: undefined },
       ],
     },
 
@@ -110,10 +110,10 @@ let initialState = {
       name: 'Какое название имеет ивановский дом необычной формы?',
       id: 10,
       answers: [
-        { name: 'Дом-волна', isRight: false, id: 1, isSelected: undefined },
-        { name: 'Дом-пузырь', isRight: false, id: 2, isSelected: undefined },
+        { name: 'Дом-копыто', isRight: false, id: 1, isSelected: undefined },
+        { name: 'Дом-стрела', isRight: false, id: 2, isSelected: undefined },
         { name: 'Дом-корабль', isRight: true, id: 3, isSelected: undefined },
-        { name: 'Дом-пушка', isRight: false, id: 4, isSelected: undefined },
+        { name: 'Дом-лодка', isRight: false, id: 4, isSelected: undefined },
       ],
     },
 
@@ -179,7 +179,7 @@ let initialState = {
     return this.questions.length;
   },
 }
-
+  
 
 const QuizReducer = (state = initialState, action) => {
   if (action.type === START_QUIZ) {
