@@ -1,0 +1,15 @@
+header{
+  padding:0.625rem 0 ;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+} 
+.header-title{
+  color:#fff;
+  font-family: 'Prata', serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  user-select: none;
+}

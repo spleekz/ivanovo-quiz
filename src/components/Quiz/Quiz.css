@@ -1,0 +1,132 @@
+.quiz{
+  font-size: 2rem;
+  color:#fff;
+  padding: 1rem;
+}
+.quiz-block{
+  max-width: 83.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question{
+  text-shadow: 
+		-0 -2px 0   #000000,
+		 0 -2px 0   #000000,
+		-0 2px 0   #000000,
+		 0 2px 0   #000000,
+		-2px -0 0   #000000,
+		 2px -0 0   #000000,
+		-2px  0 0   #000000,
+		 2px  0 0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
+  font-weight: bold;
+  color:#fff;
+  font-family: 'Prata', serif;
+  font-size: 2.1rem;
+  padding: 1rem;
+  user-select:none;
+}
+.option{
+  font-family: 'Prata', serif;
+  font-size: 1.8rem;
+  background-color: white;
+  margin-bottom:0.5rem;
+  color:#000;
+  width: 50rem;
+  height: 2.7rem;
+  border-radius: 0.5625rem;
+  user-select:none;
+}
+.option:hover{
+  cursor: pointer;
+}
+.option-content{
+  text-align: center;
+}
+.selected{
+  color: #fff;
+  background-color: #1dad17;
+  transition: all 0.3s;
+} 
+.no-selected{
+  color: #fff;
+  background-color: #fd2002;
+  transition: all 0.3s;
+}
+.answers{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding:0rem;
+  margin:0rem;
+}
+button{
+  outline:none;
+  border: none;
+}
+.question-content{
+  text-align: center;
+}
+
+.quiz-animate{
+  opacity: 0;
+}
+.quiz-animate-enter.quiz-animate-enter-active{
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.quiz-animate-exit{
+  opacity: 1;
+}
+.quiz-animate-exit.quiz-animate-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.total-count{
+  text-shadow: 
+  -0 -2px 0   #000000,
+   0 -2px 0   #000000,
+  -0 2px 0   #000000,
+   0 2px 0   #000000,
+  -2px -0 0   #000000,
+   2px -0 0   #000000,
+  -2px  0 0   #000000,
+   2px  0 0   #000000,
+  -1px -2px 0   #000000,
+   1px -2px 0   #000000,
+  -1px  2px 0   #000000,
+   1px  2px 0   #000000,
+  -2px -1px 0   #000000,
+   2px -1px 0   #000000,
+  -2px  1px 0   #000000,
+   2px  1px 0   #000000,
+  -2px -2px 0   #000000,
+   2px -2px 0   #000000,
+  -2px  2px 0   #000000,
+   2px  2px 0   #000000,
+  -2px -2px 0   #000000,
+   2px -2px 0   #000000,
+  -2px  2px 0   #000000,
+   2px  2px 0   #000000;
+  font-family: 'Prata', serif;
+  color:#fff;
+  font-size: 1.9rem;
+  user-select:none;
+}

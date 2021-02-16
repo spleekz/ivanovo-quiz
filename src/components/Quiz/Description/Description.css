@@ -1,0 +1,37 @@
+.description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.description-text{
+  margin: 0.65rem 1rem;
+  padding:0.66rem;
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #000;
+  background-color: #ffdab3f5;
+  border-radius: 0.75rem
+}
+.start-quiz{
+  font-family: 'Prata', serif;
+  font-size: 1.55rem;
+  width: 18.5rem;
+  height: 4.5rem;
+  color:#6c757d;
+  background-color: #fff;
+  margin:0.7rem 0 1.4rem 0;
+  padding:0.625rem;
+  border-radius: 0.625rem;
+  transition: all 0.33s  ;
+}
+.start-quiz:hover{
+  cursor: pointer;
+  background-color:#6c757d;
+  color:#fff;
+}
+.jubilee{
+  font-weight: bold;
+  font-style: italic;
+}

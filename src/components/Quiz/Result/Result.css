@@ -1,0 +1,75 @@
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100rem;
+  padding:0.625rem
+}
+.result-title{
+  font-family: 'Prata', serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  background-color: #ffdab3f5;
+  padding:0.625rem;
+  border-radius: 0.75rem 0.75rem 0 0 ;
+}
+.result-conclusion{
+  color:#000;
+  background-color: #ffdab3f5;
+  font-family: 'Prata', serif;
+  font-style: italic;
+  border-radius: 0.75rem;
+  padding:0.625rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.result-description{
+  text-align: center;
+  font-size: 3rem;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.result-statistics{
+  color:#000;
+  border-radius:0 0 0.75rem 0.75rem;
+  background-color:#ffdab3f5;
+  padding:0.625rem 1rem;
+  font-family: 'Prata', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.restart-quiz{
+  margin-top:1rem;
+}
+.count{
+  font-family: 'Prata', serif;
+  font-weight: bold;
+}
+.excellent{
+  color:#1dc000;
+  font-weight: bold;
+}
+.well{
+  color:#1495ff;
+  font-weight: bold;
+}
+.good{
+  color: #ff7b00;
+  font-weight: bold;
+}
+.bad{
+  color:#ff3c00;
+  font-weight: bold;
+}
+.important{
+  font-weight: bold;
+}
