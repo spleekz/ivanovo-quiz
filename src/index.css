@@ -67,10 +67,13 @@
 @media(max-width:475px){
   .quiz{
     max-width: 320px;
-    font-size: 1.4rem!important;
+  }
+  .question{
+    font-size: 1.3rem!important;
   }
   .option{
     max-width: 18rem;
+    max-height: 2.1rem;
     font-size: 1.1rem!important;
   }
   .result{
